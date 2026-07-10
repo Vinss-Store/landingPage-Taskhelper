@@ -512,11 +512,11 @@ function ContactSection() {
             <h2 id="contact-heading">Siap Mulai?<br />Hubungi Kami Sekarang!</h2>
             <p>Konsultasi gratis, tidak ada biaya tersembunyi. Kami siap bantu tugasmu menjadi sempurna.</p>
             <div className="contact-btns" role="group" aria-label="Opsi kontak">
-              <a href="https://wa.me/6281234567890" className="cta-wa"
+              <a href="https://wa.me/6281262607229" className="cta-wa"
                 target="_blank" rel="noopener noreferrer">
                 <span>💬</span> WhatsApp Sekarang
               </a>
-              <a href="https://instagram.com/taskhelper.id" className="cta-ig"
+              <a href="https://instagram.com/task_helperid" className="cta-ig"
                 target="_blank" rel="noopener noreferrer">
                 <span>📸</span> Instagram Kami
               </a>
