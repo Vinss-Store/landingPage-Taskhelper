@@ -14,7 +14,7 @@ const bmcData = [
   { id: 'customer-relationship', title: 'Customer Relationship', emoji: '💬', accent: '#06b6d4',
     items: ['Fast response & ramah','Konsultasi one-on-one','Promo & diskon mahasiswa','Pelayanan personal & solutif'] },
   { id: 'channels',           title: 'Channels',            emoji: '📣', accent: '#0ea5e9',
-    items: ['Instagram @taskhelper.id','WhatsApp Business','TikTok konten edukatif','Google Form order','Grup WA mahasiswa'] },
+    items: ['Instagram @task_helperid','WhatsApp Business','TikTok konten edukatif','Google Form order','Grup WA mahasiswa'] },
   { id: 'customer-segment',   title: 'Customer Segment',    emoji: '🎓', accent: '#1d6feb',
     items: ['🎯 Mahasiswa (target utama)','📚 Pelajar SMA/SMK','👩‍🏫 Guru & dosen','🔬 Peneliti & akademisi'] },
   { id: 'cost-structure',     title: 'Cost Structure',      emoji: '💰', accent: '#f59e0b',
@@ -395,15 +395,15 @@ function SocialMediaSection() {
       <div className="section-inner">
         <div className={`section-header${inView ? ' visible' : ''}`}>
           <span className="chip">✦ Media Sosial Bisnis</span>
-          <h2 id="social-heading">Konten Instagram <span className="grad">@taskhelper.id</span></h2>
+          <h2 id="social-heading">Konten Instagram <span className="grad">@task_helperid</span></h2>
           <p>Contoh konten yang digunakan untuk menarik dan menginformasikan pelanggan.</p>
         </div>
         <div className={`social-channels${inView ? ' visible' : ''}`} role="list"
           aria-label="Platform media sosial">
           {[
-            { icon:'📸', name:'Instagram',          handle:'@taskhelper.id',        grad:'linear-gradient(135deg,#f093fb,#f5576c)' },
+            { icon:'📸', name:'Instagram',          handle:'@task_helperid',        grad:'linear-gradient(135deg,#f093fb,#f5576c)' },
             { icon:'💬', name:'WhatsApp Business',  handle:'TaskHelper Official',   grad:'linear-gradient(135deg,#11998e,#38ef7d)' },
-            { icon:'🎵', name:'TikTok',             handle:'@taskhelper.id',        grad:'linear-gradient(135deg,#667eea,#764ba2)' },
+            { icon:'🎵', name:'TikTok',             handle:'@task_helperid',        grad:'linear-gradient(135deg,#667eea,#764ba2)' },
             { icon:'📋', name:'Google Form',        handle:'Form Order Online',     grad:'linear-gradient(135deg,#1D6FEB,#10B981)' },
           ].map((ch, i) => (
             <div className="social-chip" key={ch.name} role="listitem"
@@ -425,7 +425,7 @@ function SocialMediaSection() {
                 <div className="ig-profile-row">
                   <div className="ig-avatar-circle" aria-hidden="true">TH</div>
                   <div className="ig-profile-text">
-                    <strong>taskhelper.id</strong>
+                    <strong>task_helperid</strong>
                     <span>Sponsored</span>
                   </div>
                 </div>
@@ -553,7 +553,7 @@ function Footer() {
             </ul>
           </nav>
           <div className="footer-socials" aria-label="Media sosial">
-            {[['💬','WhatsApp','https://wa.me/6281234567890'],['📸','Instagram','https://instagram.com/taskhelper.id'],['🎵','TikTok','#']].map(([ic,nm,hr]) => (
+            {[['💬','WhatsApp','https://wa.me/6281262607229'],['📸','Instagram','https://instagram.com/task_helperid'],['🎵','TikTok','#']].map(([ic,nm,hr]) => (
               <a href={hr} key={nm} className="footer-social-btn"
                 target="_blank" rel="noopener noreferrer" aria-label={nm}>
                 {ic}
